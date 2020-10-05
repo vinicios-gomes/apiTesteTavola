@@ -1,7 +1,66 @@
 {
-  "votacoes": {
-    "aprovar": 12,
-    "aptos": 10,
-    "abstencoes": 8
-  }
+  "votacoes": [{
+      "id": 1,
+      "nome": "Cidades maravilhosas",
+      "link": "http://link.com",
+      "resultados": {
+        "aptos": 12,
+        "aprovar": 30,
+        "abstencoes": 3,
+        "total": 45
+      },
+      "vote": false
+    },
+    {
+      "id": 2,
+      "nome": "Cidades maravilhosas 2",
+      "link": "http://link.com",
+      "resultados": {
+        "aptos": 12,
+        "aprovar": 1,
+        "abstencoes": 3,
+        "total": 45
+
+      },
+      "vote": true
+    },
+    {
+      "id": 3,
+      "nome": "Cidades maravilhosas 3 ",
+      "link": "http://link.com",
+      "resultados": {
+        "aptos": 12,
+        "aprovar": 9,
+        "abstencoes": 3,
+        "total": 45
+
+      },
+      "vote": false
+    }, {
+      "id": 4,
+      "nome": "Cidades teste 3 ",
+      "link": "http://link.com",
+      "resultados": {
+        "aptos": 12,
+        "aprovar": 13,
+        "abstencoes": 3,
+        "total": 45
+
+      },
+      "vote": true
+    },
+    {
+      "id": 5,
+      "nome": " maravilhosas 3 ",
+      "link": "http://link.com",
+      "resultados": {
+        "aptos": 12,
+        "aprovar": 23,
+        "abstencoes": 3,
+        "total": 45
+
+      },
+      "vote": false
+    }
+  ]
 }
